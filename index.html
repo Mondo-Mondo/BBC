@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blue Branch Consulting - Solutions informatiques modernes : SaaS, sites web, applications mobiles et conseil IT">
+    <title>Blue Branch Consulting | Solutions Informatiques Modernes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-code-branch"></i>
+                <span>Blue Branch Consulting</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Accueil</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#technologies" class="nav-link">Technologies</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transformez Votre Vision en Réalité Numérique</h1>
+            <p class="hero-subtitle">Solutions informatiques innovantes et conseil d'expertise pour accélérer votre croissance</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('services')">Découvrir nos services</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Nous contacter</button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="floating-element e1"></div>
+            <div class="floating-element e2"></div>
+            <div class="floating-element e3"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <p class="section-subtitle">Expertise complète en solutions numériques</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>SaaS Solutions</h3>
+                    <p>Plateformes cloud scalables et sécurisées, conçues pour simplifier vos processus métier et maximiser l'efficacité.</p>
+                    <ul class="service-list">
+                        <li>✓ Architecture cloud native</li>
+                        <li>✓ Multi-tenancy avancée</li>
+                        <li>✓ API RESTful robustes</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Sites web performants et responsifs utilisant les dernières technologies, optimisés pour conversion et SEO.</p>
+                    <ul class="service-list">
+                        <li>✓ Progressive Web Apps</li>
+                        <li>✓ E-commerce avancé</li>
+                        <li>✓ Design UX/UI moderne</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Applications Mobiles</h3>
+                    <p>Applications natives et cross-platform pour iOS et Android, offrant expérience utilisateur exceptionnelle.</p>
+                    <ul class="service-list">
+                        <li>✓ React Native & Flutter</li>
+                        <li>✓ Synchronisation temps réel</li>
+                        <li>✓ Offline-first architecture</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Conseil IT</h3>
+                    <p>Stratégie numérique personnalisée et accompagnement technologique pour transformer votre entreprise.</p>
+                    <ul class="service-list">
+                        <li>✓ Audit technologique</li>
+                        <li>✓ Transformation digitale</li>
+                        <li>✓ Stratégie cloud</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersécurité</h3>
+                    <p>Protection avancée de vos données et infrastructure contre les menaces cyber modernes.</p>
+                    <ul class="service-list">
+                        <li>✓ Audit de sécurité</li>
+                        <li>✓ Conformité RGPD</li>
+                        <li>✓ Gestion des identités</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>DevOps & Infrastructure</h3>
+                    <p>Automatisation, monitoring et déploiement continu pour une infrastructure fiable et performante.</p>
+                    <ul class="service-list">
+                        <li>✓ CI/CD pipelines</li>
+                        <li>✓ Kubernetes orchestration</li>
+                        <li>✓ Infrastructure as Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2 class="section-title">Technologies Modernes</h2>
+            <p class="section-subtitle">Nous maîtrisons les stack techniques les plus avancés</p>
+            
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3><i class="fas fa-layer-group"></i> Frontend</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">React</span>
+                        <span class="tech-item">Vue.js</span>
+                        <span class="tech-item">Angular</span>
+                        <span class="tech-item">TypeScript</span>
+                        <span class="tech-item">Tailwind CSS</span>
+                        <span class="tech-item">Next.js</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">Java</span>
+                        <span class="tech-item">.NET Core</span>
+                        <span class="tech-item">Go</span>
+                        <span class="tech-item">GraphQL</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-database"></i> Données & BDD</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">PostgreSQL</span>
+                        <span class="tech-item">MongoDB</span>
+                        <span class="tech-item">Redis</span>
+                        <span class="tech-item">Elasticsearch</span>
+                        <span class="tech-item">Firebase</span>
+                        <span class="tech-item">DynamoDB</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">AWS</span>
+                        <span class="tech-item">Google Cloud</span>
+                        <span class="tech-item">Azure</span>
+                        <span class="tech-item">Docker</span>
+                        <span class="tech-item">Kubernetes</span>
+                        <span class="tech-item">Terraform</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">React Native</span>
+                        <span class="tech-item">Flutter</span>
+                        <span class="tech-item">Swift</span>
+                        <span class="tech-item">Kotlin</span>
+                        <span class="tech-item">Expo</span>
+                        <span class="tech-item">Ionic</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3><i class="fas fa-gear"></i> Outils & Frameworks</h3>
+                    <div class="tech-items">
+                        <span class="tech-item">Git</span>
+                        <span class="tech-item">Jenkins</span>
+                        <span class="tech-item">GitLab CI</span>
+                        <span class="tech-item">Jira</span>
+                        <span class="tech-item">Figma</span>
+                        <span class="tech-item">Jest</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projets Réussis</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Clients Satisfaits</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Experts IT</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Client</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Qui Sommes-Nous ?</h2>
+                    <p><strong>Blue Branch Consulting LLP</strong> est une entreprise leader en solutions informatiques modernes, basée à Glasgow, Écosse.</p>
+                    
+                    <div class="company-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Numéro d'enregistrement :</span>
+                            <span class="detail-value">SO307346</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Type :</span>
+                            <span class="detail-value">Limited Liability Partnership (LLP)</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Fondée :</span>
+                            <span class="detail-value">20 août 2021</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Siège social :</span>
+                            <span class="detail-value">272 Bath Street, Glasgow, Scotland, G2 4JR</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Statut :</span>
+                            <span class="detail-value"><span class="badge badge-success">Actif</span></span>
+                        </div>
+                    </div>
+
+                    <p style="margin-top: 20px;">Nous nous spécialisons dans la création de solutions SaaS innovantes, de sites web performants, d'applications mobiles intuitives et du conseil stratégique en informatique. Notre équipe de professionnels passionnés combine expertise technique et vision commerciale pour transformer vos idées en produits numériques de haute qualité.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expertise technologique de pointe</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Approche client-centrée</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Délais de livraison respectés</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Support long terme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Croissance Digitale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-Nous</h2>
+            <p class="section-subtitle">Parlons de votre prochain projet</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Adresse</h3>
+                        <p>272 Bath Street<br>Glasgow, G2 4JR<br>Écosse, Royaume-Uni</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@bluebranchconsulting.com">contact@bluebranchconsulting.com</a></p>
+                        <p><a href="mailto:info@bluebranchconsulting.com">info@bluebranchconsulting.com</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+441415551234">+44 141 555 1234</a></p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Blue Branch Consulting</h4>
+                    <p>Solutions informatiques innovantes pour votre transformation digitale.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">SaaS Solutions</a></li>
+                        <li><a href="#services">Développement Web</a></li>
+                        <li><a href="#services">Applications Mobiles</a></li>
+                        <li><a href="#services">Conseil IT</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Entreprise</h4>
+                    <ul>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li>Numéro d'enregistrement: SO307346</li>
+                        <li>Type: LLP</li>
+                        <li>Statut: <span class="badge badge-success">Actif</span></li>
+                        <li><a href="https://find-and-update.company-information.service.gov.uk/company/SO307346" target="_blank">Companies House ↗</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Blue Branch Consulting LLP. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
